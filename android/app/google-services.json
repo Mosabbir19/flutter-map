@@ -1,33 +1,33 @@
 {
   "project_info": {
-    "project_number": "1058339154044",
-    "project_id": "mecha-map-311206",
-    "storage_bucket": "mecha-map-311206.appspot.com"
+    "project_number": "77850497378",
+    "project_id": "pivotal-store-299215",
+    "storage_bucket": "pivotal-store-299215.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:1058339154044:android:b96d53c4f331e4d873c1f9",
+        "mobilesdk_app_id": "1:77850497378:android:45616a8de24ef541badc3b",
         "android_client_info": {
-          "package_name": "com.mechanickoi.mechamap"
+          "package_name": "com.mapproject.storelocation"
         }
       },
       "oauth_client": [
         {
-          "client_id": "1058339154044-hjrideuc4tr8ikcckjf3j1g34pok1iqo.apps.googleusercontent.com",
+          "client_id": "77850497378-l3079174afe4tsmnfjnk2gcutkkoufau.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDC-8pD84nMBqdeaSN7j5J0YN5I4iti1AM"
+          "current_key": "AIzaSyBjM9YrhV_KLXfet-VRHKieYtH4E4jcFF0"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "1058339154044-hjrideuc4tr8ikcckjf3j1g34pok1iqo.apps.googleusercontent.com",
+              "client_id": "77850497378-l3079174afe4tsmnfjnk2gcutkkoufau.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

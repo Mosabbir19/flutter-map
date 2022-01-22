@@ -7,7 +7,7 @@
     <item
         android:width="200dp"
         android:height="355dp"
-        android:drawable="@drawable/mecha_map_logo"
+        android:drawable="@drawable/maplogo"
         android:gravity="center" >
            
     </item>

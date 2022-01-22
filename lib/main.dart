@@ -59,7 +59,7 @@ class _MyAppState extends State<MyApp> {
   //fetching the markers from the firestore
   getMarkerData() {
     // firestore database named as 'data'
-    Firestore.instance.collection('mapdata').getDocuments().then((docs) {
+    Firestore.instance.collection('data').getDocuments().then((docs) {
       if (docs.documents.isNotEmpty) {
         for (int i = 0; i < docs.documents.length; i++) {
           initMarker(docs.documents[i].data, docs.documents[i].documentID);
@@ -80,7 +80,7 @@ class _MyAppState extends State<MyApp> {
           LatLng(client['location'].latitude, client['location'].longitude),
       icon: mapMarker,
       // fetching garage name from 'garage' data
-      infoWindow: InfoWindow(title: 'Mecha Garage', snippet: client['garage']),
+      infoWindow: InfoWindow(title: client['name'], snippet: client['locname']),
       markerId: markerId,
     );
 
@@ -92,7 +92,7 @@ class _MyAppState extends State<MyApp> {
   // custom marker icon
   void setCustomMarker() async {
     mapMarker = await BitmapDescriptor.fromAssetImage(
-        ImageConfiguration(), 'assets/marker.png');
+        ImageConfiguration(), 'assets/storelocation.png');
   }
 
   // search address result
@@ -117,16 +117,19 @@ class _MyAppState extends State<MyApp> {
 
     return MaterialApp(
       home: Scaffold(
-        // appBar: AppBar(
-        //   elevation: 0,
-        //   brightness: Brightness.dark,
-        //   title: Text('Mecha Map'),
-        //   backgroundColor: Color(0xff053d45),
-        // ),
+        appBar: AppBar(
+          title: Text(
+            'Coffee Shop',
+            style: TextStyle(
+              color: Colors.black,
+            ),
+          ),
+          backgroundColor: Colors.greenAccent,
+        ),
         body: SafeArea(
           child: DoubleBackToCloseApp(
             snackBar: const SnackBar(
-              backgroundColor: Color(0xff053d45),
+              backgroundColor: Colors.greenAccent,
               content: Text('Tap back again to exit'),
             ),
             child: Stack(
@@ -151,7 +154,7 @@ class _MyAppState extends State<MyApp> {
                     height: 50.0,
                     width: double.infinity,
                     decoration: BoxDecoration(
-                        borderRadius: BorderRadius.circular(18.0),
+                        borderRadius: BorderRadius.circular(10.0),
                         color: Colors.white),
                     child: TextField(
                       //search by using enter from keyboard
@@ -196,8 +199,11 @@ class _MyAppState extends State<MyApp> {
           onPressed: () {
             getCurrentLocation();
           },
-          child: Icon(Icons.my_location),
-          backgroundColor: Color(0xff053d45),
+          child: Icon(
+            Icons.my_location,
+            color: Colors.black,
+          ),
+          backgroundColor: Colors.greenAccent[400],
         ),
         floatingActionButtonLocation: FloatingActionButtonLocation.centerFloat,
       ),

@@ -1,4 +1,4 @@
-name: mecha_map
+name: flutter_map
 description: A new Flutter application.
 
 # The following line prevents the package from being accidentally published to
@@ -43,13 +43,13 @@ dev_dependencies:
 
 
 flutter_icons:
-  android: "launcher_icon"
+  android: "ic_launcher"
   ios: true
-  image_path: "assets/launcher icon.png"
+  image_path: "assets/maplogo.png"
 
 
 flutter_launcher_name:
-  name: "Mecha Map" 
+  name: "Store Location" 
   
 
 
