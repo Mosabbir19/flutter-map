@@ -1,15 +1,7 @@
-<<<<<<< HEAD
-# Coffee Shop
-
-
-Coffee Shop location a direction application.
-
-=======
 # Coffee Shop location
 
 Coffee Shop location a direction application.
 Developed by me.
->>>>>>> 6be80ae3533cdd2b023fcab7353671f1934138e1
 
 ## Getting Started
 
