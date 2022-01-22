@@ -1,9 +1,8 @@
 # Coffee Shop location
 # Development Branch
 
-mecha_map a direction application.
-Developed by Mechanic Koi? team.
-Development branch
+Coffee Shop location a direction application.
+Developed by me.
 
 ## Getting Started
 
