@@ -1,5 +1,4 @@
 # Coffee Shop location
-# Development Branch
 
 Coffee Shop location a direction application.
 Developed by me.
