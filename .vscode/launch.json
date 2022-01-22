@@ -5,7 +5,7 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "mecha_map",
+            "name": "flutter-map",
             "request": "launch",
             "type": "dart"
         }
