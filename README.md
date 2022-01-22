@@ -1,4 +1,4 @@
-# mecha_map
+# Coffee Shop location
 # Development Branch
 
 mecha_map a direction application.
