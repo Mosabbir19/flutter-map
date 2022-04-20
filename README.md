@@ -31,3 +31,7 @@ By tapping a specific shop, the user can get the route via the main google map.
 
  <img src = "Screenshots/coffee%20shop%20front.png" width = "400">
  <img src = "Screenshots/Coffee%20map.png" width = "400">
+
+## 🔗 Links
+
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mosabbir-bhuiyan)
