@@ -1,17 +1,33 @@
-# Coffee Shop location
 
-Coffee Shop location a direction application.
-Developed by me.
+# Flutter Map - Coffee shop
 
-## Getting Started
+Flutter map shows the location of the Coffee Shop. 
+It has a search option where users can search for a specific location. 
+It also shows the user’s current location. 
+By tapping a specific shop, the user can get the route via the main google map.
+## Language and API
 
-This project is a starting point for a Flutter application.
+- Flutter
+- Dart
+- Firestore
+- Google map
+## Features
 
-A few resources to get you started if this is your first Flutter project:
+- Current location
+- Search places
+- Show Route
+- Custom location icon
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+## Plugins
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+    1.	firebase_core - v0.4.4
+    2.	cloud_firestore - v0.13.7
+    3.	google_maps_flutter - v1.1.1
+    4.	geolocator - v5.3.1
+    5.	flutter_launcher_icons - v0.8.1
+    6.	flutter_launcher_name - v0.0.1
+
+## Screenshots
+
+ <img src = "Screenshots/coffee%20shop%20front.png" width = "400">
+ <img src = " Screenshots/coffee%20shop%20front.png" width = "400">
