@@ -8,16 +8,17 @@ By tapping a specific shop, the user can get the route via the main google map.
 
 ## Language and API
 
-- Flutter
-- Dart
-- Firestore
-- Google map
+    - Flutter
+    - Dart
+    - Firestore
+    - Google map
+
 ## Features
 
-- Current location
-- Search places
-- Show Route
-- Custom location icon
+    - Current location
+    - Search places
+    - Show Route
+    - Custom location icon
 
 ## Plugins
 
