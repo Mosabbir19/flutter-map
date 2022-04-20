@@ -29,8 +29,8 @@ By tapping a specific shop, the user can get the route via the main google map.
 
 ## Screenshots
 
- <img src = "Screenshots/coffee%20shop%20front.png" width = "400">
- <img src = "Screenshots/Coffee%20map.png" width = "400">
+ <img src = "screenshots/coffee%20shop%20front.png" width = "400">
+ <img src = "screenshots/Coffee%20map.png" width = "400">
 
 ## 🔗 Links
 
