@@ -31,8 +31,8 @@ By tapping a specific shop, the user can get the route via the main google map.
 
 ## Screenshots
 
- <img src = "screenshots/Screenshot_1.png" width = "400">
- <img src = "screenshots/Screenshot_2.png" width = "400">
+ <img src = "screenshots/Screenshot_1.png" width = "300">
+ <img src = "screenshots/Screenshot_2.png" width = "300">
 
 ## 🔗 Links
 
